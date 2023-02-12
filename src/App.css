@@ -1,0 +1,64 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.AppFooter{
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.AppHeader{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.PageContent{
+  padding-left: 15px;
+
+}
+
+.SideMenu{
+  height: 100vh;
+
+}
+
+.SideMenuAndPageContent{
+    display: flex;
+    flex: 3;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.140);
+}
+
+.loginButton{
+  color: black;
+}
+.pagiStyle{
+  padding-top: 20px;
+  padding-right: 16vw ;
+ 
+ 
+} 
+.SideMenuVertical{
+  height: 1100px;
+  z-index: 1;
+}
+.InventoryTable{
+  margin: 20px;
+}
+
+.Inventorychart{
+  margin-left: 5vw;
+  margin-bottom: 69vh;
+}
+
